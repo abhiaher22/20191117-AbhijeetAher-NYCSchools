@@ -16,6 +16,22 @@
 		A36C65AB23822D5B00FE2BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36C65A923822D5B00FE2BCA /* LaunchScreen.storyboard */; };
 		A36C65B623822D5B00FE2BCA /* _0191117_AbhijeetAher_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65B523822D5B00FE2BCA /* _0191117_AbhijeetAher_NYCSchoolsTests.swift */; };
 		A36C65C123822D5B00FE2BCA /* _0191117_AbhijeetAher_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65C023822D5B00FE2BCA /* _0191117_AbhijeetAher_NYCSchoolsUITests.swift */; };
+		A36C65CF23822F0A00FE2BCA /* SchoolDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65CE23822F0A00FE2BCA /* SchoolDataStore.swift */; };
+		A36C65D223822FC200FE2BCA /* NetworkDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65D123822FC200FE2BCA /* NetworkDataManager.swift */; };
+		A36C65D52382301500FE2BCA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65D42382301500FE2BCA /* CoreDataManager.swift */; };
+		A36C65D82382308300FE2BCA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65D72382308300FE2BCA /* Reachability.swift */; };
+		A36C65DB238230BE00FE2BCA /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65DA238230BE00FE2BCA /* School.swift */; };
+		A36C65E42382325300FE2BCA /* Schools+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65E22382325300FE2BCA /* Schools+CoreDataClass.swift */; };
+		A36C65E52382325300FE2BCA /* Schools+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65E32382325300FE2BCA /* Schools+CoreDataProperties.swift */; };
+		A36C65E72382330D00FE2BCA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65E62382330D00FE2BCA /* Constants.swift */; };
+		A36C65ED2382341800FE2BCA /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65EC2382341800FE2BCA /* Protocol.swift */; };
+		A36C65EF238234D600FE2BCA /* SchoolGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65EE238234D600FE2BCA /* SchoolGrade.swift */; };
+		A36C65F1238234DF00FE2BCA /* SchoolGradeDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65F0238234DF00FE2BCA /* SchoolGradeDataStore.swift */; };
+		A36C65F32382358B00FE2BCA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65F22382358B00FE2BCA /* Alert.swift */; };
+		A36C65F6238235E000FE2BCA /* SchoolGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65F5238235E000FE2BCA /* SchoolGradeViewController.swift */; };
+		A36C65FA238237D400FE2BCA /* SchoolGrades+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65F8238237D400FE2BCA /* SchoolGrades+CoreDataClass.swift */; };
+		A36C65FB238237D400FE2BCA /* SchoolGrades+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C65F9238237D400FE2BCA /* SchoolGrades+CoreDataProperties.swift */; };
+		A3E014D823827863001A84DC /* CustomURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E014D723827863001A84DC /* CustomURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,22 @@
 		A36C65BC23822D5B00FE2BCA /* 20191117-AbhijeetAher-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20191117-AbhijeetAher-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36C65C023822D5B00FE2BCA /* _0191117_AbhijeetAher_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0191117_AbhijeetAher_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		A36C65C223822D5B00FE2BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36C65CE23822F0A00FE2BCA /* SchoolDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataStore.swift; sourceTree = "<group>"; };
+		A36C65D123822FC200FE2BCA /* NetworkDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataManager.swift; sourceTree = "<group>"; };
+		A36C65D42382301500FE2BCA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A36C65D72382308300FE2BCA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A36C65DA238230BE00FE2BCA /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		A36C65E22382325300FE2BCA /* Schools+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Schools+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A36C65E32382325300FE2BCA /* Schools+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Schools+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A36C65E62382330D00FE2BCA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A36C65EC2382341800FE2BCA /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		A36C65EE238234D600FE2BCA /* SchoolGrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolGrade.swift; sourceTree = "<group>"; };
+		A36C65F0238234DF00FE2BCA /* SchoolGradeDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolGradeDataStore.swift; sourceTree = "<group>"; };
+		A36C65F22382358B00FE2BCA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A36C65F5238235E000FE2BCA /* SchoolGradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolGradeViewController.swift; sourceTree = "<group>"; };
+		A36C65F8238237D400FE2BCA /* SchoolGrades+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SchoolGrades+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A36C65F9238237D400FE2BCA /* SchoolGrades+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SchoolGrades+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A3E014D723827863001A84DC /* CustomURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +135,16 @@
 			children = (
 				A36C659B23822D5A00FE2BCA /* AppDelegate.swift */,
 				A36C659D23822D5A00FE2BCA /* SceneDelegate.swift */,
-				A36C659F23822D5A00FE2BCA /* ViewController.swift */,
+				A3D050E6238254E1004427C9 /* Controller */,
+				A36C65E82382331400FE2BCA /* Helper */,
+				A36C65F7238235EF00FE2BCA /* Protocol */,
+				A36C65F42382359400FE2BCA /* Alert */,
+				A36C65E1238231E900FE2BCA /* CoreDataModel */,
+				A36C65DC238230C400FE2BCA /* ResponseModels */,
+				A36C65D92382308800FE2BCA /* Reachability */,
+				A36C65D62382301E00FE2BCA /* CoreDataManager */,
+				A36C65D323822FD000FE2BCA /* WebService */,
+				A36C65D023822F1700FE2BCA /* DataStore */,
 				A36C65A123822D5A00FE2BCA /* Main.storyboard */,
 				A36C65A723822D5B00FE2BCA /* Assets.xcassets */,
 				A36C65A923822D5B00FE2BCA /* LaunchScreen.storyboard */,
@@ -129,6 +170,93 @@
 				A36C65C223822D5B00FE2BCA /* Info.plist */,
 			);
 			path = "20191117-AbhijeetAher-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		A36C65D023822F1700FE2BCA /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65F0238234DF00FE2BCA /* SchoolGradeDataStore.swift */,
+				A36C65CE23822F0A00FE2BCA /* SchoolDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		A36C65D323822FD000FE2BCA /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65D123822FC200FE2BCA /* NetworkDataManager.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		A36C65D62382301E00FE2BCA /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65D42382301500FE2BCA /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		A36C65D92382308800FE2BCA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65D72382308300FE2BCA /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A36C65DC238230C400FE2BCA /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65EE238234D600FE2BCA /* SchoolGrade.swift */,
+				A36C65DA238230BE00FE2BCA /* School.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		A36C65E1238231E900FE2BCA /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65F8238237D400FE2BCA /* SchoolGrades+CoreDataClass.swift */,
+				A36C65F9238237D400FE2BCA /* SchoolGrades+CoreDataProperties.swift */,
+				A36C65E22382325300FE2BCA /* Schools+CoreDataClass.swift */,
+				A36C65E32382325300FE2BCA /* Schools+CoreDataProperties.swift */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		A36C65E82382331400FE2BCA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A3E014D723827863001A84DC /* CustomURL.swift */,
+				A36C65E62382330D00FE2BCA /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A36C65F42382359400FE2BCA /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65F22382358B00FE2BCA /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		A36C65F7238235EF00FE2BCA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A36C65EC2382341800FE2BCA /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		A3D050E6238254E1004427C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A36C659F23822D5A00FE2BCA /* ViewController.swift */,
+				A36C65F5238235E000FE2BCA /* SchoolGradeViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +390,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36C65CF23822F0A00FE2BCA /* SchoolDataStore.swift in Sources */,
+				A36C65ED2382341800FE2BCA /* Protocol.swift in Sources */,
+				A36C65F6238235E000FE2BCA /* SchoolGradeViewController.swift in Sources */,
+				A36C65E52382325300FE2BCA /* Schools+CoreDataProperties.swift in Sources */,
+				A3E014D823827863001A84DC /* CustomURL.swift in Sources */,
+				A36C65E42382325300FE2BCA /* Schools+CoreDataClass.swift in Sources */,
 				A36C65A023822D5A00FE2BCA /* ViewController.swift in Sources */,
+				A36C65D223822FC200FE2BCA /* NetworkDataManager.swift in Sources */,
 				A36C659C23822D5A00FE2BCA /* AppDelegate.swift in Sources */,
+				A36C65FA238237D400FE2BCA /* SchoolGrades+CoreDataClass.swift in Sources */,
+				A36C65F1238234DF00FE2BCA /* SchoolGradeDataStore.swift in Sources */,
+				A36C65DB238230BE00FE2BCA /* School.swift in Sources */,
 				A36C659E23822D5A00FE2BCA /* SceneDelegate.swift in Sources */,
+				A36C65D52382301500FE2BCA /* CoreDataManager.swift in Sources */,
+				A36C65D82382308300FE2BCA /* Reachability.swift in Sources */,
 				A36C65A623822D5A00FE2BCA /* _0191117_AbhijeetAher_NYCSchools.xcdatamodeld in Sources */,
+				A36C65E72382330D00FE2BCA /* Constants.swift in Sources */,
+				A36C65FB238237D400FE2BCA /* SchoolGrades+CoreDataProperties.swift in Sources */,
+				A36C65F32382358B00FE2BCA /* Alert.swift in Sources */,
+				A36C65EF238234D600FE2BCA /* SchoolGrade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
