@@ -94,15 +94,18 @@ class SchoolDataStore : NSObject{
     private func createSchoolEntityFrom(responseModel: School) -> NSManagedObject?{
         // TODO: Do a guard check
         // iOS 10 and above
+        
         let school = Schools(context: coreDataManager.managedObjectContext)
-       
-        school.school_name = responseModel.school_name
-        school.overview_paragraph = responseModel.overview_paragraph
+     
+        school.school_name = responseModel.school_name?.stripped
+        school.overview_paragraph = responseModel.overview_paragraph?.stripped
         school.website = responseModel.website
         school.dbn = responseModel.dbn
 
         return school
     }
+    
+    
     
 
     

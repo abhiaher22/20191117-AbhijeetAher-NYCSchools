@@ -20,3 +20,12 @@ struct Constants {
         static let APIPathSchoolsGrade = "/resource/f9bf-2cp4.json"
     }
 }
+
+
+extension String {
+
+    var stripped: String? {
+        let okayChars = Set("abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLKMNOPQRSTUVWXYZ1234567890+-=().!_")
+        return self.filter {okayChars.contains($0) }
+    }
+}
